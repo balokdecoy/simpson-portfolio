@@ -1,15 +1,20 @@
 import React from "react";
-import {BrowserRouter as Router, Route } from "react-router-dom";
-import './App.css';
-import Header from "./components/Header/index";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Nav from "./components/Nav";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio"
 import Footer from "./components/Footer/index";
-
 
 function App() {
   return (
     <Router>
       <div>
-        <Header />
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+        </Switch>
+        <Footer />
       </div>
     </Router>
   );

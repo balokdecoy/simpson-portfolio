@@ -1,0 +1,13 @@
+.jumbotron {
+    text-align: left;
+    height: 560;
+    clear: both;
+    padding: 120px;
+    font-size: xx-large;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.portfolio {
+    text-align: right;
+}

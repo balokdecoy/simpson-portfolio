@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import React from "react";
+import {BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
+import Header from "./components/Header/index";
+import Footer from "./components/Footer/index";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

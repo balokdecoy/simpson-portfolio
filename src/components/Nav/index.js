@@ -9,6 +9,9 @@ function Nav() {
           <div>
             Johnnie Simpson: Full-Stack Web Developer
         </div>
+        <div>
+          Portfolio
+        </div>
         </div>
       </nav>
   );

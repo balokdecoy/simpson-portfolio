@@ -1,9 +1,10 @@
 import React from "react";
+import Card from "../components/Card/index"
 
 function Portfolio() {
     return (
         <div>
-        <h1>Input Portfolio content here</h1>
+        <Card />
         </div>
     );
 }

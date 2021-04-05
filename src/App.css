@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  text-align: left;
+  height: 560;
+  clear: both;
+  padding: 80px;
+  font-size: x-large;
+  background-color: #BDA27E;
+  color: white;
+}

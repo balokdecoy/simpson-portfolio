@@ -1,21 +1,16 @@
 import React from "react";
-import Jumbotron from "../Jumbotron";
+import "./style.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Nav() {
   return (
-    <Jumbotron>
-       <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg">
         <div className="navbar-brand" to="/">
-          <div><span>Johnnie Simpson: Full-Stack Web Developer</span>
-          <hr></hr>
-          <div className="portfolio" onClick="/Portfolio">Portfolio</div>
+          <div>
+            Johnnie Simpson: Full-Stack Web Developer
         </div>
         </div>
-       
-    </nav>
-   
-    </Jumbotron>
-   
+      </nav>
   );
 }
 

@@ -1,10 +1,14 @@
 import React from "react";
+import { Col, Row, Container } from "../components/Grid/index";
 
 function Home() {
     return (
-        <div>
-        <h1>Input content here</h1>
-        </div>
+        <Container fluid>
+        <Row>
+          <Col size="md-6">
+          </Col>
+        </Row>
+      </Container>
     );
 }
 

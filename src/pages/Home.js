@@ -3,9 +3,10 @@ import { Col, Row, Container } from "../components/Grid/index";
 
 function Home() {
     return (
-        <Container fluid>
+    <Container>
         <Row>
           <Col size="md-6">
+            
           </Col>
         </Row>
       </Container>

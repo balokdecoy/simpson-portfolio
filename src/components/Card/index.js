@@ -1,5 +1,6 @@
 import React from "react";
 import {Container, Row, Col } from "../Grid/index"
+import "./style.css"
 
 function Card() {
   return (
@@ -10,7 +11,7 @@ function Card() {
             <div className="card-header">
               <h3 className="card-title">Project 1</h3>
             </div>
-            <img className="card-img-top" src="./tarot.jpg" alt="Card image cap"></img>
+            <img className="card-img-top" src="./images/images/tarot.jpg" alt="Card image cap"></img>
             <div className="card-body">
               <p className="card-text">
                 Description of my project
@@ -37,7 +38,7 @@ function Card() {
             <div className="card-header">
               <h3 className="card-title">Project 1</h3>
             </div>
-            <img className="card-img-top" src="./tarot.jpg" alt="Card image cap"></img>
+            <img className="card-img-top" src="" alt="Card image cap"></img>
             <div className="card-body">
               <p className="card-text">
                 Description of my project

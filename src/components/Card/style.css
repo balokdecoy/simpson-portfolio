@@ -1,4 +1,6 @@
-.card-title, .card-text {
+.myCard {
     color: whitesmoke;
     background-color: black;
+    padding: 20px;
+    margin: 20px;
 }

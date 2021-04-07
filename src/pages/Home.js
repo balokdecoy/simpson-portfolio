@@ -28,32 +28,28 @@ function Home() {
                     </div>
           </Col>
           <Col size="md-4" style={{paddingTop:"30px"}}>
-          <div class="card text-white bg-dark mb-3" style={{maxWidth: "18rem"}}>
-                        <img class="card-img-top" src="./images/images/me.jpg" alt="my picture" />
-                        <div class="card-body">
-                            <h5 class="card-title">let's connect</h5>
-                            <p class="card-text">
-                                <a class="button" href="https://github.com/balokdecoy" target="_blank" 
-                                    style={{color:"white", padding: "5px"}}>    
-                                    <i class="fab fa-github fa-3x"></i>
-                                </a>
-                                <a class="button" href="./assets/resume/johnnie-simpson-resume-2021.pdf" target="_blank" 
-                                style={{color:"red", padding: "5px"}}>
-                                <i class="far fa-file-pdf fa-3x"></i>
-                                </a>
-                                <a class="button" href="https://www.linkedin.com/in/johnnie-simpson-jr-46629586/"
-                                    target="_blank" style={{color: "blue", padding: "5px"}}>
-                                    <i class="fab fa-linkedin fa-3x"></i>
-                                </a>
-                                <a class="button" href="https://www.youtube.com/channel/UCH4BSKNihbY1rpfJSUrR7Pw/featured" target="_blank" 
-                                    style={{color:"red", padding: "5px"}}>
-                                    <i class="fab fa-youtube fa-3x"></i>
-                                </a>
-                                <p>Phone: <br /> 443-974-3428</p>
-                                <p>Email: johnniesimpson88@gmail.com</p>
-                            </p>
-                        </div>
-                    </div>
+            <div class="card text-white bg-dark mb-3" style={{maxWidth: "18rem"}}>
+              <img class="card-img-top" src="./images/images/me.jpg" alt="my picture" />
+              <div class="card-body">
+                <h5 class="card-title">let's connect</h5>
+                  <p class="card-text">
+                    <a class="button" href="https://github.com/balokdecoy" target="_blank" style={{color:"white", padding: "5px"}}>    
+                      <i class="fab fa-github fa-3x"></i>
+                    </a>
+                    <a class="button" href="./assets/resume/johnnie-simpson-resume-2021.pdf" target="_blank" style={{color:"red", padding: "5px"}}>
+                      <i class="far fa-file-pdf fa-3x"></i>
+                    </a>
+                    <a class="button" href="https://www.linkedin.com/in/johnnie-simpson-jr-46629586/" target="_blank" style={{color: "blue", padding: "5px"}}>
+                      <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                    <a class="button" href="https://www.youtube.com/channel/UCH4BSKNihbY1rpfJSUrR7Pw/featured" target="_blank" style={{color:"red", padding: "5px"}}>
+                      <i class="fab fa-youtube fa-3x"></i>
+                    </a>
+                    <p>Phone: <br /> 443-974-3428</p>
+                    <p>Email: johnniesimpson88@gmail.com</p>
+                  </p>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>

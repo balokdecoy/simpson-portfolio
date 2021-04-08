@@ -1,10 +1,18 @@
 import React from "react";
 import "./style.css"
+import Card from 'react-bootstrap/Card'
 
-function Footer() {
-    return <footer className="footer">
-        <span>Johnnie Simpson 2021</span>
-    </footer>
-}
-
-export default Footer;
+export default function () {
+    // return <footer className="footer">
+    //     <span>Johnnie Simpson 2021</span>
+    // </footer>
+    return (
+    <div id="footer">
+        
+                <footer className="container" id="myFooter">
+                Johnnie Simpson - April 2021
+                </footer>
+           
+    </div>
+    )
+};

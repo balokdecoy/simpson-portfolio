@@ -1,9 +1,8 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 export default function () {
   return (<div>
@@ -14,7 +13,7 @@ export default function () {
     <Nav className="mr-auto">
       <Nav.Link href="/">home</Nav.Link>
       <Nav.Link href="/portfolio">portfolio</Nav.Link>
-      <Nav.Link href="/portfolio">contact</Nav.Link>
+      <Nav.Link href="/contact">contact</Nav.Link>
       {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

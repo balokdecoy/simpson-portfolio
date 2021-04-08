@@ -36,7 +36,7 @@ function Home() {
                     <a className="button" href="https://github.com/balokdecoy" target="_blank" style={{color:"white", padding: "5px"}}>    
                       <i className="fab fa-github fa-3x"></i>
                     </a>
-                    <a className="button" href="./assets/resume/johnnie-simpson-resume-2021.pdf" target="_blank" style={{color:"red", padding: "5px"}}>
+                    <a className="button" href="./resume/johnnie-simpson-resume-2021.pdf" target="_blank" style={{color:"red", padding: "5px"}}>
                       <i className="far fa-file-pdf fa-3x"></i>
                     </a>
                     <a className="button" href="https://www.linkedin.com/in/johnnie-simpson-jr-46629586/" target="_blank" style={{color: "blue", padding: "5px"}}>
@@ -45,6 +45,8 @@ function Home() {
                     <a className="button" href="https://www.youtube.com/channel/UCH4BSKNihbY1rpfJSUrR7Pw/featured" target="_blank" style={{color:"red", padding: "5px"}}>
                       <i className="fab fa-youtube fa-3x"></i>
                     </a>
+                    <br />
+                    <br />
                     <p>Phone: <br /> 443-974-3428</p>
                     <p>Email: johnniesimpson88@gmail.com</p>
                   </p>

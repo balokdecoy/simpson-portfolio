@@ -29,7 +29,7 @@ function Home() {
           </Col>
           <Col size="md-4" style={{paddingTop:"30px"}}>
             <div className="card text-white bg-dark mb-3" style={{maxWidth: "18rem"}}>
-              <img className="card-img-top" src="./images/images/me.jpg" alt="my picture" />
+              <img className="card-img-top" src="./images/images/me2.jpg" alt="my picture"/>
               <div className="card-body">
                 <h5 className="card-title">let's connect</h5>
                   <p className="card-text">

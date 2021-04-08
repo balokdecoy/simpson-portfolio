@@ -85,7 +85,7 @@ export default function () {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small>MySQL, Sequelize, JavaScript, Node.js, Handlebars</small>
     </Card.Footer>
   </Card>
 
@@ -103,7 +103,7 @@ export default function () {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small>React, JavaScript, Node.js, Axios</small>
     </Card.Footer>
   </Card>
   </CardDeck>
@@ -114,8 +114,8 @@ export default function () {
     <Card.Body>
       <Card.Title style={{paddingTop: "20px"}}>Ace of Pentacles</Card.Title>
       <Card.Text>
-      Hive is an employee directory application built in React.js, Axios, Node.js, and JavaScript. 
-      Designed to present React state functionality. 
+      Ace of Pentacles is a tarot card reading and horoscope app. Select either a three-card Past-Present-Future spread, a traditional 
+      Celtic Cross spread for deeper questions, or check your daily horosocpe. Utilizes a customized RESTful API. 
       <br />
       <br />
       <button type="button" className="btn btn-dark" style={{fontWeight: "bolder"}} onClick={app4} id="project1App">For Users</button>
@@ -123,7 +123,7 @@ export default function () {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small>JavaScript, jQuery, RESTful APIs, Materialize</small>
     </Card.Footer>
   </Card>
 
@@ -142,7 +142,7 @@ export default function () {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small>JavaScript, jQuery, RESTful APIs, Bootstrap</small>
     </Card.Footer>
   </Card>
   </CardDeck>
@@ -163,7 +163,7 @@ export default function () {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small>MongoDB, Mongoose, React, JavaScript, Node.js</small>
     </Card.Footer>
   </Card>
 
@@ -181,7 +181,7 @@ export default function () {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small>JavaScript, jQuery, Node.js, Inquirer</small>
     </Card.Footer>
   </Card>
   </CardDeck>

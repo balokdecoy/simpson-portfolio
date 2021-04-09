@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
@@ -13,9 +13,9 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/Portfolio" component={Portfolio} />
-          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/simpson-portfolio/#/home" component={Home} />
+          <Route exact path="/simpson-portfolio/#/portfolio" component={Portfolio} />
+          <Route exact path="/simpson-portfolio/#/contact" component={Contact} />
         </Switch>
         <Footer />
       </div>

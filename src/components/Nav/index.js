@@ -10,9 +10,9 @@ export default function () {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/">home</Nav.Link>
-      <Nav.Link href="/portfolio">portfolio</Nav.Link>
-      <Nav.Link href="/contact">contact</Nav.Link>
+      <Nav.Link href="/simpson-portfolio/#/">home</Nav.Link>
+      <Nav.Link href="/simpson-portfolio/#/portfolio">portfolio</Nav.Link>
+      <Nav.Link href="/simpson-portfolio/#/contact">contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

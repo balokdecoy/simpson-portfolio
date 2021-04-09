@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 export default function () {
   return (<div>
     <Navbar bg="dark" variant="dark" expand="lg" style={{width: "100%"}}>
-  <Navbar.Brand href="/">Johnnie Simpson - Full-Stack Developer</Navbar.Brand>
+  <Navbar.Brand href="/simpson-portfolio/#/">Johnnie Simpson - Full-Stack Developer</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">

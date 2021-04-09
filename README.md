@@ -26,7 +26,7 @@
 
   ## Screenshots
 
-  
+  ![screenshots](./public/screenshots/dashboard.png)
 
   ## Technologies
 

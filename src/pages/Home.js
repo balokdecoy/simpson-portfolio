@@ -48,7 +48,7 @@ function Home() {
                     <br />
                     <br />
                     <p>Phone: <br /> 443-974-3428</p>
-                    <p>Email: johnniesimpson88@gmail.com</p>
+                    <p>Email: johnniesimpson@protonmail.com</p>
                   </p>
               </div>
             </div>

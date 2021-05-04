@@ -11,12 +11,9 @@ function Home() {
                         <div className="col-md-10">
                             <div id="myBio" style={{color: "#a3cc00", fontFamily: "Inconsolata, monospace"}}>
                                 Welcome. I'm Johnnie Simpson, I am a full-stack web developer from 
-                                Baltimore, Maryland. I am currently enrolled in the George Washington University 
-                                Full Stack Coding Bootcamp. I have a B.A. in English Language and Literature from
-                                the University of Maryland, but my professional background over the past several years
-                                has mostly been in accounting. My passion, however, is coding and development. I am 
-                                working towards a professional certificate in full stack development, and I plan to
-                                leverage my diverse skillset to bring clarity, precision, and passion to the web
+                                Baltimore, Maryland. I graduated from the George Washington University 
+                                Full Stack Coding Bootcamp. Currently, I am pursuing Linux sysadmin and Kali Linux Certified Professional certifications. 
+                                I  strive to leverage my diverse skillset to bring clarity, precision, and passion to the web
                                 development industry. 
                                 <br />
                                 <br />

@@ -32,6 +32,7 @@ function Contact() {
         emailjs.send("service_sh5gphi","template_12iqf18", {
             from_name: name.value,
             message: userMessage.value,
+            reply_to: email.value,
         }, "user_mOQiDnOMdIxqFfHkwIVUx");
         alert("Your message has been sent. Thank you for reaching out!")
     }

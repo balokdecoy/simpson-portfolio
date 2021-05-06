@@ -6,12 +6,12 @@ import CardDeck from 'react-bootstrap/CardDeck';
 
 function repo1(e) {
   e.preventDefault();
-  window.open("https://github.com/balokdecoy/Project_Management_App");
+  window.open("https://github.com/balokdecoy/Sprinter-React");
 };
 
 function app1(e) {
   e.preventDefault();
-  window.open("https://fast-everglades-95030.herokuapp.com/");
+  window.open("https://vibrant-pasteur-087033.netlify.app/");
 }
 
 function repo2(e) {
@@ -70,7 +70,7 @@ export default function () {
  <CardDeck className="customCard">
 
     <Card>
-    <Card.Img variant="top" src="./images/images/sprinter.png" />
+    <Card.Img variant="top" src="./images/images/dashboard.png" />
     <Card.Body>
       <Card.Title style={{paddingTop: "20px"}}>Sprinter</Card.Title>
       <Card.Text>
@@ -90,6 +90,28 @@ export default function () {
   </Card>
 
   <Card>
+    <Card.Img variant="top" src="./images/images/weather-app.png" />
+    <Card.Body>
+      <Card.Title style={{paddingTop: "20px"}}>Weather Dashboard</Card.Title>
+      <Card.Text>
+        Weather application utilizing RESTful APIs. Incorporates OpenWeather API and dayJS API. 
+        Includes current weather forecast and 5-day forecast. Daily weather information includes 
+        current conditions, temperature, humidity, UV index, and wind speed. 
+      <br />
+      <br />
+      <button type="button" className="btn btn-dark" style={{fontWeight: "bolder"}} onClick={app3} id="project1App">For Users</button>
+      <button type="button" className="btn btn-secondary" style={{fontWeight: "bolder"}} onClick={repo3} id="project1Code">For Nerds</button> 
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small>JavaScript, jQuery, RESTful APIs, Bootstrap</small>
+    </Card.Footer>
+  </Card>
+  </CardDeck>
+
+  <CardDeck className="customCard">
+
+  <Card>
     <Card.Img variant="top" src="./images/images/hive.png" />
     <Card.Body>
       <Card.Title style={{paddingTop: "20px"}}>Hive</Card.Title>
@@ -106,9 +128,7 @@ export default function () {
       <small>React, JavaScript, Node.js, Axios</small>
     </Card.Footer>
   </Card>
-  </CardDeck>
 
-<CardDeck className="customCard">
   <Card>
     <Card.Img variant="top" src="./images/images/celtic.png" />
     <Card.Body>
@@ -127,24 +147,6 @@ export default function () {
     </Card.Footer>
   </Card>
 
-    <Card>
-    <Card.Img variant="top" src="./images/images/weather-app.png" />
-    <Card.Body>
-      <Card.Title style={{paddingTop: "20px"}}>Weather Dashboard</Card.Title>
-      <Card.Text>
-        Weather application utilizing RESTful APIs. Incorporates OpenWeather API and dayJS API. 
-        Includes current weather forecast and 5-day forecast. Daily weather information includes 
-        current conditions, temperature, humidity, UV index, and wind speed. 
-      <br />
-      <br />
-      <button type="button" className="btn btn-dark" style={{fontWeight: "bolder"}} onClick={app3} id="project1App">For Users</button>
-      <button type="button" className="btn btn-secondary" style={{fontWeight: "bolder"}} onClick={repo3} id="project1Code">For Nerds</button> 
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small>JavaScript, jQuery, RESTful APIs, Bootstrap</small>
-    </Card.Footer>
-  </Card>
   </CardDeck>
 
   <CardDeck className="customCard">

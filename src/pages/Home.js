@@ -45,7 +45,8 @@ function Home() {
                     <br />
                     <br />
                     <p>Phone: <br /> 443-974-3428</p>
-                    <p>Email: johnniesimpson@protonmail.com</p>
+                    <a style={{color: "#a3cc00"}} 
+                    href="mailto:johnniesimpson@protonmail.com">johnniesimpson@protonmail.com</a>
                   </p>
               </div>
             </div>

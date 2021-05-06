@@ -17,9 +17,19 @@ function Contact() {
         setName({value: e.target.value})
     }
 
+    const handleEmail = (e) => {
+        setEmail({value: e.target.value})
+    }
+
+    const handleMessage = (e) => {
+        setMessage({value: e.target.value})
+    }
+
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(name)
+        console.log(email)
+        console.log(message)
         alert("Contact Form is currently under development. Check back later!")
     }
 
@@ -37,12 +47,13 @@ function Contact() {
                         </div>
                         <div className="form-group"> 
                             <label style={{color:"white"}}>email address</label>
-                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" 
+                            onChange={handleEmail} />
                         </div>
                         <div className="form-group">
                           <label style={{color:"white"}}>message</label>
                           <textarea className="form-control" rows="3" 
-                          placeholder="what's up?"></textarea>
+                          placeholder="what's up?" onChange={handleMessage}></textarea>
                         </div>
                         <button type="submit" value="Submit" className="btn btn-primary">submit</button>
                     </Form>

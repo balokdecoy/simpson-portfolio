@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Col, Row, Container } from "../components/Grid/index";
 import Form from 'react-bootstrap/Form';
 import FormFile from 'react-bootstrap/FormFile';
-import{ init } from 'emailjs-com';
-init("user_mOQiDnOMdIxqFfHkwIVUx");
+import emailjs from 'emailjs-com';
 
 function Contact() {
 
@@ -11,7 +10,7 @@ function Contact() {
 
     const [email, setEmail] = useState([]);
 
-    const [message, setMessage] = useState([]);
+    const [userMessage, setMessage] = useState([]);
 
     const handleChange = (e) => {
         setName({value: e.target.value})
@@ -29,8 +28,12 @@ function Contact() {
         e.preventDefault();
         console.log(name)
         console.log(email)
-        console.log(message)
-        alert("Contact Form is currently under development. Check back later!")
+        console.log(userMessage)
+        emailjs.send("service_sh5gphi","template_12iqf18", {
+            from_name: name.value,
+            message: userMessage.value,
+        }, "user_mOQiDnOMdIxqFfHkwIVUx");
+        alert("Your message has been sent. Thank you for reaching out!")
     }
 
     return (
@@ -42,7 +45,7 @@ function Contact() {
                           <h1 style={{paddingTop: "30px", color: "white"}}>contact me</h1>  
                           <br />
                           <label htmlFor="exampleFormControlInput1" style={{color:"white"}}>your name</label>
-                          <input type="text" className="form-control" placeholder="your name here" 
+                          <input type="text" className="form-control" name="user_name" placeholder="your name here" 
                           onChange={handleChange}/>
                         </div>
                         <div className="form-group"> 

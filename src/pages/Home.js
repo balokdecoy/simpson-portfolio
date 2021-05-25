@@ -33,7 +33,7 @@ function Home() {
                     <a className="button" href="https://github.com/balokdecoy" target="_blank" style={{color:"white", padding: "5px"}}>    
                       <i className="fab fa-github fa-3x"></i>
                     </a>
-                    <a className="button" href="./resume/johnnie-simpson-resume-2021.pdf" target="_blank" style={{color:"red", padding: "5px"}}>
+                    <a className="button" href="./resume/resume-johnnie-simpson.pdf" target="_blank" style={{color:"red", padding: "5px"}}>
                       <i className="far fa-file-pdf fa-3x"></i>
                     </a>
                     <a className="button" href="https://www.linkedin.com/in/johnnie-simpson-jr-46629586/" target="_blank" style={{color: "blue", padding: "5px"}}>

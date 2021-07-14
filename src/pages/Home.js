@@ -32,7 +32,7 @@ function Home() {
                     <p><span style={{color:"white"}}>Back-End: </span> GNOME Terminal, Git, Node.js, NPM, Express, Axios, RESTful APIs, 
                     MongoDB, MySQL, Mongoose, Sequelize </p>
                     <p><span style={{color:"white"}}>Software: </span> VSCode, Robo3T, IntelliJ IDEA, MySQL Workbench, VirtualBox</p>
-                    <p><span style={{color:"white"}}>Currently studying: </span> Linux sysadmin certification and Python </p>
+                    <p><span style={{color:"white"}}>Currently studying: </span> Linux sysadmin certification, Python, Sabermetrics </p>
                   </div>
                 </div>
               </div>

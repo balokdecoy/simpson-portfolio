@@ -46,7 +46,7 @@ function Home() {
                     <a className="button" href="https://github.com/balokdecoy" target="_blank" style={{color:"white", padding: "5px"}}>    
                       <i className="fab fa-github fa-3x"></i>
                     </a>
-                    <a className="button" href="./resume/resume-johnnie-simpson.pdf" target="_blank" style={{color:"red", padding: "5px"}}>
+                    <a className="button" href="./resume/resume-johnnie-simpsonv2.pdf" target="_blank" style={{color:"red", padding: "5px"}}>
                       <i className="far fa-file-pdf fa-3x"></i>
                     </a>
                     <a className="button" href="https://www.linkedin.com/in/johnnie-simpson-jr-46629586/" target="_blank" style={{color: "blue", padding: "5px"}}>
@@ -58,7 +58,7 @@ function Home() {
                     <br />
                     <br />
                     <a style={{color: "#a3cc00"}} 
-                    href="mailto:johnniesimpson@protonmail.com">johnniesimpson@protonmail.com</a>
+                    href="mailto:johnniesimpson@protonmail.com">johnniesimpson88@gmail.com</a>
                   </p>
               </div>
             </div>

@@ -74,8 +74,8 @@ export default function () {
     <Card.Body>
       <Card.Title style={{paddingTop: "20px"}}>Sprinter</Card.Title>
       <Card.Text>
-      Sprinter is a project management application built with MySQL, Sequelize, Node.js, Handlebars,
-      Express, and Dotenv. Create sprints, add employees and managers to sprints, 
+      Sprinter is a project management application built with MongoDB, Mongoose, Node.js,
+      Express, Axios, and Dotenv. Create sprints, add employees and managers to sprints, 
       and track development as your project progresses. To see app, use the following login credentials: 
       Username: jsimpson  Password: 1234
       <br />
@@ -85,7 +85,7 @@ export default function () {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small>MySQL, Sequelize, JavaScript, Node.js, Handlebars</small>
+      <small>MongoDB, Mongoose, JavaScript, Node.js, Express, Axios</small>
     </Card.Footer>
   </Card>
 

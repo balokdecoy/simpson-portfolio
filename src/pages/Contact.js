@@ -43,45 +43,45 @@ function Contact() {
   return (
     <Container>
       <Row>
-        <Col size="md-6">
+        <Col size='md-6'>
           <Form onSubmit={handleSubmit}>
-            <div className="form-group">
+            <div className='form-group'>
               <h1 style={{ paddingTop: "30px", color: "white" }}>contact me</h1>
               <br />
               <label
-                htmlFor="exampleFormControlInput1"
+                htmlFor='exampleFormControlInput1'
                 style={{ color: "white" }}
               >
                 your name
               </label>
               <input
-                type="text"
-                className="form-control"
-                name="user_name"
-                placeholder="your name here"
+                type='text'
+                className='form-control'
+                name='user_name'
+                placeholder='your name here'
                 onChange={handleChange}
               />
             </div>
-            <div className="form-group">
+            <div className='form-group'>
               <label style={{ color: "white" }}>email address</label>
               <input
-                type="email"
-                className="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
+                type='email'
+                className='form-control'
+                id='exampleFormControlInput1'
+                placeholder='name@example.com'
                 onChange={handleEmail}
               />
             </div>
-            <div className="form-group">
+            <div className='form-group'>
               <label style={{ color: "white" }}>message</label>
               <textarea
-                className="form-control"
-                rows="3"
+                className='form-control'
+                rows='3'
                 placeholder="what's up?"
                 onChange={handleMessage}
               ></textarea>
             </div>
-            <button type="submit" value="Submit" className="btn btn-primary">
+            <button type='submit' value='Submit' className='btn btn-primary'>
               submit
             </button>
           </Form>

@@ -5,37 +5,35 @@ function Home() {
   return (
     <Container>
       <Row>
-        <Col size="md-8">
+        <Col size='md-8'>
           <h1
             style={{
               paddingTop: "30px",
               color: "white",
-              fontFamily: "Inconsolata, monospace",
+              fontFamily: "Roboto",
             }}
           >
-            {" "}
-            {">"} hello, world...|
+            Hello World.
           </h1>
-          <div className="row">
-            <div className="col-md-10">
+          <div className='row'>
+            <div className='col-md-10'>
               <div
-                id="myBio"
+                id='myBio'
                 style={{
                   color: "#a3cc00",
-                  fontFamily: "Inconsolata, monospace",
+                  fontFamily: "Roboto",
                 }}
               >
-                Welcome. I'm Johnnie Simpson, I am a full-stack web developer
-                from Baltimore, Maryland. I graduated from the George Washington
-                University Full Stack Coding Bootcamp. Currently, I am pursuing
-                Linux sysadmin certifications. I strive to leverage my diverse
-                skillset to bring clarity, precision, and passion to the web
-                development industry.
+                I'm Johnnie Simpson, a full-stack web developer from Baltimore,
+                Maryland. I graduated from the George Washington University
+                Full-Stack Web Development Bootcamp in 2021. Since then I have
+                continually built my own projects, and redesigned the corporate
+                websites of two government contracting companies.
                 <br />
                 <br />
                 Thanks for stopping by. Feel free to explore my projects by
                 clicking on the Portfolio tab. You can reach me directly at the
-                Contact Me tab, or on social media.
+                Contact Me tab.
               </div>
             </div>
           </div>
@@ -43,19 +41,18 @@ function Home() {
             style={{
               paddingTop: "30px",
               color: "white",
-              fontFamily: "Inconsolata, monospace",
+              fontFamily: "Roboto",
             }}
           >
-            {" "}
-            {">"} Skillset
+            Skillset
           </h1>
-          <div className="row">
-            <div className="col-md-10">
+          <div className='row'>
+            <div className='col-md-10'>
               <div
-                id="myBio"
+                id='myBio'
                 style={{
                   color: "#a3cc00",
-                  fontFamily: "Inconsolata, monospace",
+                  fontFamily: "Roboto",
                 }}
               >
                 <p>
@@ -74,6 +71,10 @@ function Home() {
                   Robo3T, IntelliJ IDEA, MySQL Workbench, VirtualBox
                 </p>
                 <p>
+                  <span style={{ color: "white" }}>Certifications: </span>{" "}
+                  Introduction to Linux - The Linux Foundation, August 14 2021
+                </p>
+                <p>
                   <span style={{ color: "white" }}>Currently studying: </span>{" "}
                   Linux sysadmin certification, Python, Sabermetrics{" "}
                 </p>
@@ -81,62 +82,62 @@ function Home() {
             </div>
           </div>
         </Col>
-        <Col size="md-4" style={{ paddingTop: "30px" }}>
+        <Col size='md-4'>
           <div
-            className="card text-white bg-dark mb-3"
-            style={{ maxWidth: "18rem" }}
+            className='card text-white bg-dark mb-3'
+            style={{ maxWidth: "18rem", marginTop: "30px" }}
           >
             <img
-              className="card-img-top"
-              src="./images/images/me2.jpg"
-              alt="johnnie-simpson"
+              className='card-img-top'
+              src='./images/images/me2.jpg'
+              alt='johnnie-simpson'
             />
-            <div className="card-body">
-              <h5 className="card-title">let's connect</h5>
-              <p className="card-text">
+            <div className='card-body'>
+              <h5 className='card-title'>let's connect</h5>
+              <p className='card-text'>
                 <a
-                  className="button"
-                  href="https://github.com/balokdecoy"
-                  target="_blank"
-                  rel="noreferrer"
+                  className='button'
+                  href='https://github.com/balokdecoy'
+                  target='_blank'
+                  rel='noreferrer'
                   style={{ color: "white", padding: "5px" }}
                 >
-                  <i className="fab fa-github fa-3x"></i>
+                  <i className='fab fa-github fa-3x'></i>
                 </a>
                 <a
-                  className="button"
-                  href="./resume/resume-johnnie-simpsonv2.pdf"
-                  target="_blank"
-                  rel="noreferrer"
+                  className='button'
+                  href='./resume/resume-johnnie-simpsonv2.pdf'
+                  target='_blank'
+                  rel='noreferrer'
                   style={{ color: "red", padding: "5px" }}
                 >
-                  <i className="far fa-file-pdf fa-3x"></i>
+                  <i className='far fa-file-pdf fa-3x'></i>
                 </a>
                 <a
-                  className="button"
-                  href="https://www.linkedin.com/in/johnnie-simpson-jr-46629586/"
-                  target="_blank"
-                  rel="noreferrer"
+                  className='button'
+                  href='https://www.linkedin.com/in/johnnie-simpson-jr-46629586/'
+                  target='_blank'
+                  rel='noreferrer'
                   style={{ color: "blue", padding: "5px" }}
                 >
-                  <i className="fab fa-linkedin fa-3x"></i>
+                  <i className='fab fa-linkedin fa-3x'></i>
                 </a>
                 <a
-                  className="button"
-                  href="https://www.youtube.com/channel/UCH4BSKNihbY1rpfJSUrR7Pw/featured"
-                  target="_blank"
-                  rel="noreferrer"
+                  className='button'
+                  href='https://www.youtube.com/channel/UCH4BSKNihbY1rpfJSUrR7Pw/featured'
+                  target='_blank'
+                  rel='noreferrer'
                   style={{ color: "red", padding: "5px" }}
                 >
-                  <i className="fab fa-youtube fa-3x"></i>
+                  <i className='fab fa-youtube fa-3x'></i>
                 </a>
                 <br />
                 <br />
                 <a
                   style={{ color: "#a3cc00" }}
-                  href="mailto:johnniesimpson@protonmail.com"
+                  href='mailto:johnniesimpson@proton.me'
                 >
-                  johnniesimpson@protonmail.com
+                  johnniesimpson@proton.me
                 </a>
               </p>
             </div>

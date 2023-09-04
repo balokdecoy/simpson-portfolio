@@ -6,14 +6,19 @@ import Nav from "react-bootstrap/Nav";
 export default function pageNav() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg" style={{ width: "100%" }}>
+      <Navbar
+        bg='dark'
+        variant='dark'
+        expand='lg'
+        style={{ width: "100%", padding: "30px" }}
+      >
         <Navbar.Brand>Johnnie Simpson - Full-Stack Developer</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/simpson-portfolio/#/">home</Nav.Link>
-            <Nav.Link href="/simpson-portfolio/#/portfolio">portfolio</Nav.Link>
-            <Nav.Link href="/simpson-portfolio/#/contact">contact</Nav.Link>
+        <Navbar.Toggle aria-controls='basic-navbar-nav' />
+        <Navbar.Collapse id='basic-navbar-nav'>
+          <Nav className='mr-auto'>
+            <Nav.Link href='/simpson-portfolio/#/'>home</Nav.Link>
+            <Nav.Link href='/simpson-portfolio/#/portfolio'>portfolio</Nav.Link>
+            <Nav.Link href='/simpson-portfolio/#/contact'>contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
